@@ -11,6 +11,7 @@ Contents
 =========
 
 .. toctree::
+   :glob:
    :maxdepth: 2
 
    statistics
@@ -18,6 +19,7 @@ Contents
    Fokker-Plank-eq
    An-Intro-to-Boltzmann-dist-from-ECC
    latex-tips
+   *
 
 Indices and tables
 ==================
