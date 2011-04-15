@@ -214,6 +214,15 @@ i Production  Grammar
     - AnBn ∉ L3 だが AnBn ∈ L2.5 より L3 ⊊ L2.5
     - 「線形言語に対するポンプの補題」を使って L2.5 ⊊ L2 を示す
 
+    補足
+
+    * #a (uv^{i+1}wx^{i+1}y)
+    * = #a (uvwxy) + i | v |      ... v は外に. a ∉ x より #a は x に依らない
+    * > #a (uvwxy)                ... v ≠ ε
+    * = #b (uvwxy)                ... Lの定義より #a(.) = #b(.)
+    * = #b (uv^{i+1}wx^{i+1}y)    ... b ∉ v, x より #b は v, x に依らない
+
+
 3.5 プッシュダウンオートマトン
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -401,3 +410,21 @@ LBA 問題 (LBA problem)
 定理 5.11
     CSL(1型言語) でない帰納的言語(0.5型言語)が存在する．
     すなわち， L1 ⊊ L0.5
+
+
+リンク
+------
+
+- `守屋悦朗 形式言語とオートマトン
+  <http://www.edu.waseda.ac.jp/~moriya/education/books/LA/>`_
+
+  - http://www.edu.waseda.ac.jp/~moriya/education/books/LA/exercise1.pdf
+  - http://www.edu.waseda.ac.jp/~moriya/education/books/LA/exercise2.pdf
+  - http://www.edu.waseda.ac.jp/~moriya/education/books/LA/exercise3.pdf
+  - http://www.edu.waseda.ac.jp/~moriya/education/books/LA/exercise4.pdf
+  - http://www.edu.waseda.ac.jp/~moriya/education/books/LA/exercise5.pdf
+  - http://www.edu.waseda.ac.jp/~moriya/education/books/LA/references.pdf
+  - http://www.edu.waseda.ac.jp/~moriya/education/books/LA/books.pdf
+  - `エラー訂正
+    <http://www.edu.waseda.ac.jp/~moriya/education/books/LA/correction.html>`_
+
